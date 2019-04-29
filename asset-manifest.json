@@ -1,15 +1,15 @@
 {
-  "main.css": "/chain-auction/static/css/main.a51f4ad4.chunk.css",
-  "main.js": "/chain-auction/static/js/main.3bc94f63.chunk.js",
-  "main.js.map": "/chain-auction/static/js/main.3bc94f63.chunk.js.map",
-  "runtime~main.js": "/chain-auction/static/js/runtime~main.98cbece5.js",
-  "runtime~main.js.map": "/chain-auction/static/js/runtime~main.98cbece5.js.map",
-  "static/css/2.502b812c.chunk.css": "/chain-auction/static/css/2.502b812c.chunk.css",
-  "static/js/2.6fb33fab.chunk.js": "/chain-auction/static/js/2.6fb33fab.chunk.js",
-  "static/js/2.6fb33fab.chunk.js.map": "/chain-auction/static/js/2.6fb33fab.chunk.js.map",
-  "index.html": "/chain-auction/index.html",
-  "precache-manifest.2c3ff47038bfaec885024fcaa46687a7.js": "/chain-auction/precache-manifest.2c3ff47038bfaec885024fcaa46687a7.js",
-  "service-worker.js": "/chain-auction/service-worker.js",
-  "static/css/2.502b812c.chunk.css.map": "/chain-auction/static/css/2.502b812c.chunk.css.map",
-  "static/css/main.a51f4ad4.chunk.css.map": "/chain-auction/static/css/main.a51f4ad4.chunk.css.map"
+  "main.css": "/chain_auction/static/css/main.a51f4ad4.chunk.css",
+  "main.js": "/chain_auction/static/js/main.15246127.chunk.js",
+  "main.js.map": "/chain_auction/static/js/main.15246127.chunk.js.map",
+  "runtime~main.js": "/chain_auction/static/js/runtime~main.e2f1831f.js",
+  "runtime~main.js.map": "/chain_auction/static/js/runtime~main.e2f1831f.js.map",
+  "static/css/2.502b812c.chunk.css": "/chain_auction/static/css/2.502b812c.chunk.css",
+  "static/js/2.0852c624.chunk.js": "/chain_auction/static/js/2.0852c624.chunk.js",
+  "static/js/2.0852c624.chunk.js.map": "/chain_auction/static/js/2.0852c624.chunk.js.map",
+  "index.html": "/chain_auction/index.html",
+  "precache-manifest.bc79de65177de32050f641e6047229ea.js": "/chain_auction/precache-manifest.bc79de65177de32050f641e6047229ea.js",
+  "service-worker.js": "/chain_auction/service-worker.js",
+  "static/css/2.502b812c.chunk.css.map": "/chain_auction/static/css/2.502b812c.chunk.css.map",
+  "static/css/main.a51f4ad4.chunk.css.map": "/chain_auction/static/css/main.a51f4ad4.chunk.css.map"
 }
