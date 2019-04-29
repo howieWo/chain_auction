@@ -1,0 +1,53 @@
+{
+  "name": "auction_dapp",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://howieWo.github.io/chain_auction",
+  "dependencies": {
+    "antd": "^3.16.1",
+    "babel-plugin-import": "^1.11.0",
+    "bignumber.js": "^8.1.1",
+    "customize-cra": "^0.2.12",
+    "ganache-cli": "^6.4.1",
+    "ipfs-api": "^26.1.2",
+    "mocha": "^6.0.2",
+    "moment": "^2.24.0",
+    "onchange": "^5.2.0",
+    "react": "^16.8.6",
+    "react-app-rewired": "^2.1.1",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "rimraf": "^2.6.3",
+    "solc": "^0.5.0",
+    "truffle-hdwallet-provider": "^1.0.5",
+    "video-react": "^0.13.6",
+    "web3": "^1.0.0-beta.35"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "precompile": "rimraf src/compile/*",
+    "test:w": "mocha --watch",
+    "compile": "node scripts/compile.js",
+    "compile:w": "onchange \"contracts/*.sol\" -- npm run compile",
+    "rebuild": "npm run compile && mocha",
+    "rebuild:w": "onchange \"contracts/*.sol\" \"test/*.js\" -- npm run rebuild",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

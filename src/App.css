@@ -1,0 +1,286 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  background-color: #333333;
+  height: 48px;
+  display: flex;
+  justify-content:center;
+}
+
+.headerContent {
+  background-color: #333;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerRight {
+  color: #E7E7E7;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  line-height: 48px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.headerRight:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.downMenu {
+  width: 180px;
+  height: 90px;
+  margin-top: -3px;
+}
+.downMenuItem{
+  width: 100%;
+  text-align: center;
+  height: 45px;
+  line-height: 40px;
+  margin-top: -3px;
+}
+.downMenuItem:hover {
+  background-color: #2FAC6A;
+}
+.menu {
+  height: 80px;
+  background: #fff;
+  border-bottom: 1px solid #E7E7E7;
+  display: flex;
+  justify-content:center;
+}
+.menuContent {
+  /* background-color: #666666; */
+  width: 90%;
+  display: flex;
+}
+
+.menuContent .logo {
+  flex-grow: 4;
+  background-color: #2FAC6A;
+  background: url(/images/logo1.png) no-repeat;
+  background-size: 190px 80px;
+  line-height: 80px;
+  padding-top: 10px;
+}
+
+.menuContent .menuList{
+  flex-grow: 5;
+  background-color: #61dafb;
+}
+
+.menuContent .menuList .menuItem{
+  width: 100px;
+  text-align: center;
+  /* background-color: #2FAC6A */
+}
+
+/* .menuContent .menuList .menuItem:hover{
+  background-color: #2FAC6A;
+  color: #fff;
+} */
+
+.menuContent .menuList .menuItemLink {
+  margin-left: -20px;
+  width: 100px;
+  text-align: center;
+}
+
+.menuContent .menuList .menuItemLink:hover {
+  background-color: #2FAC6A;
+  color: #fff;
+}
+
+.menuContent .menuList .menuItem:active{
+  background-color: #2FAC6A;
+  color: #fff;
+}
+
+.menuContent .searchInput {
+  flex-grow: 3;
+  padding-top: 20px;
+}
+
+.search {
+  height: 100px;
+}
+
+.UserLeft {
+  height: 50px;
+  line-height: 50px;
+}
+
+.InitFundContentRouter {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+}
+
+.InitFundContent {
+  width: 94%;
+  border: 1px solid #DDDCDE;
+  margin-top: 40px;
+}
+
+.InitFundContent img {
+  width: 350px;
+  height: 350px;
+  margin: 50px;
+  margin-left: 100px;
+}
+
+.InitFundTop {
+  width: 100%;
+  border-bottom: 1px solid #DDDCDE;
+  padding: 15px 16px;
+  text-align: left;
+  background-color: #ddd;
+}
+
+.go-funding-content {
+  margin-top: 16px;
+  border: 1px solid #e9e9e9;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.go-funding-title {
+  width: 100%;
+  border-bottom: 1px solid #DDDCDE;
+  padding: 15px 16px;
+  text-align: left;
+  background-color: #ddd;
+}
+
+.go-funding-info {
+  padding: 50px;
+  padding-left: 80px;
+}
+
+.steps-action {
+  margin-top: 24px;
+  margin-left: 20px;
+  text-align: center
+}
+
+.dynamic-delete-button {
+  cursor: pointer;
+  font-size: 24px;
+  color: #999;
+  transition: all .3s;
+}
+.dynamic-delete-button:hover {
+  color: #777;
+}
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  /* height: 410px; */
+  /* line-height: 410px; */
+  /* background: #364d79; */
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.buyButton {
+  width: 180px;
+  height: 55px;
+  border: 1px solid #2FAC6A;
+  line-height: 55px;
+  font-size: 22px;
+  text-align: center;
+  color: #2FAC6A;
+  margin-top: 24px;
+  border-radius: 3px;
+  user-select:none;
+}
+
+.buyButtonDis {
+  width: 220px;
+  height: 55px;
+  border: 1px solid #666;
+  line-height: 55px;
+  font-size: 22px;
+  text-align: center;
+  color: #666;
+  margin-top: 24px;
+  border-radius: 3px;
+  user-select:none;
+}
+
+.buyButton:hover {
+  background: #2FAC6A;
+  color: #fff;
+  cursor: pointer;
+}
+
+.goOrderButton {
+  width: 180px;
+  height: 55px;
+  border: 1px solid #2FAC6A;
+  line-height: 55px;
+  font-size: 22px;
+  text-align: center;
+  color: #2FAC6A;
+  margin-top: 24px;
+  border-radius: 3px;
+  user-select:none;
+}
+
+.goOrderButtonDis {
+  width: 180px;
+  height: 55px;
+  border: 1px solid #666;
+  line-height: 55px;
+  font-size: 22px;
+  text-align: center;
+  color: #666;
+  margin-top: 24px;
+  border-radius: 3px;
+  user-select:none;
+}
+
+.goOrderButton:hover {
+  background: #2FAC6A;
+  color: #fff;
+  cursor: pointer;
+}
